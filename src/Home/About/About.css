@@ -1,0 +1,118 @@
+#about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    position: relative;
+    gap: 30px;
+  }
+  
+  .leftAbout {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .circle-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(128, 215, 228);
+    border-radius: 50px;
+    box-shadow: 2px 2px 20px rgb(128, 215, 228);
+  }
+  
+  .line {
+    width: 2px;
+    height: 130px;
+    background-color: rgb(128, 215, 228);
+  }
+  
+  .aboutDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  
+  .aboutDetails h2 {
+    font-weight: 600;
+    font-size: x-large;
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .aboutDetails li {
+    font-weight: 500;
+  }
+  
+  .aboutDetails span {
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .rightAbout {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .a-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 750px) {
+    #about {
+      flex-direction: column;
+     
+  
+    }
+  
+    .leftAbout {
+      width: 100%;
+      margin-top: 20px;
+      padding: 4px;
+    }
+  
+    .rightAbout {
+      width: 100%;
+      margin-top: 20px;
+      visibility: hidden;
+      padding: 4px;
+    }
+  }
+  @media (min-width:750px){
+    .a-b{
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        left:45%;
+        top: 9px;
+        font-family:inherit;
+       
+        background-color: rgb(9, 0, 18);
+        background-clip: text;
+        color: transparent;
+
+        /* background-color: red; */
+    }
+  }
+  
