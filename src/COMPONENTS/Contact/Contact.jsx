@@ -52,7 +52,7 @@ const Contact = () => {
       <div className="mb-15 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="md:w-1/2 mb-8 ml-2 md:mb-0">
-            <h2 className="text-3xl font-bold mb-3 text-black-500">Get in Touch</h2>
+            <h2 className="text-3xl font-bold mb-3 text-black-500">Get in Touch.</h2>
             <p className="mb-4 text-[black]/85">
               I'm always open to new opportunities and collaboration.Feel free to reach out!
             </p>
