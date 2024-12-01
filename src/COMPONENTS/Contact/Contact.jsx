@@ -111,7 +111,7 @@ const Contact = () => {
               />
             </div>
             <button type="submit" className="bg-red-500 text-white px-3 py-2 rounded-lg">
-              Submit now
+              Submit
             </button>
           </form>
         </div>
