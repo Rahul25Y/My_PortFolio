@@ -54,7 +54,7 @@ const Contact = () => {
           <div className="md:w-1/2 mb-8 ml-2 md:mb-0">
             <h2 className="text-3xl font-bold mb-3 text-black-500">Get in Touch.</h2>
             <p className="mb-4 text-[black]/85">
-              I'm always open to new opportunities and collaboration.Feel free to reach out!
+              I'm always open to new opportunities and collaboration. Feel free to reach out!
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-foreground/60 hover:text-foreground/80">
